@@ -10,7 +10,7 @@ const gui = new dat.GUI({
 })
 
 const textureLoader = new THREE.TextureLoader()
-const shape = textureLoader.load('/particleShape/1.png')
+const shape = textureLoader.load('./particleShape/1.png')
 
 const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
